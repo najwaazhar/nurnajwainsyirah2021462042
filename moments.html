@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<body style="background-color:pink;">
+<head>
+<title> My Personal Website</title>
+
+
+
+</head>
+<body>
+<header>
+
+<a href="index.html" >
+<center>
+<img src="img/hkme.png" alt="my personal website " style="width:300px" 
+</center>
+<a/>
+
+
+</header>
+
+<center>
+<hr>
+<nav>
+ <table cellspacing="5" cellpadding="5" border="1" >
+ <tr>
+<td> <a href="index.html">Home</a></td>
+<td><a href="aboutme.html">About me</a></td>
+<td><a href="family.html">Family</a></td>
+<td><a href="friends.html">Friends</a></td>
+<td><a href="personalinterest.html">Personal interest</a></td>
+<td><a href="moments.html">Moments</a></td>
+<td><a href="socmed.html">Social media</a></td>
+</tr>
+</table>
+</nav>
+</center>
+<hr>
+
+<center>
+<h2><i><b>Favourite moments<i><b><h2>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column">
+    <img src="video/meloo.gif" alt="melody" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="video/lts.gif" alt="dog" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="video/keroppo.gif" alt="Mountains" style="width:50%">
+  </div>
+</div>
+<center> 
+<embed src="video/dump.mp4" width="500" height="500"></embed>&emsp;&emsp;&emsp;
+<embed src="video/wawa300.mp4" width="500" height="500"></embed>
+</center>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 9 px;
+  
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: pink;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<div style="background-color:pink;padding:30px"></div>
+<div style="background-color:pink;padding:30px 30px 100px">
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+<center>
+<td colspan="2" align="center">
+
+<p> Copyright © 2022 Nur Najwa Insyirah Binti Azhar</p>
+<p>Recommended Browser Google Chrome Resolution 1366x768.</p>
+<p>Last Updated 12 December 2022.</p>
+<p>All Rights Reserved.</p>
+
+</td>
+</tr>
+</center>
+</body>
+</html>
